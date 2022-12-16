@@ -11475,15 +11475,14 @@ button.close:focus {
 }
 
 .app-branding {
-    height: 60px;
-    padding-top: 1rem;
+    height: 80px;
+    padding-top: 0.5rem;
     padding-left: 1rem;
-    margin-bottom: 1rem
+    padding-bottom: 1rem;
 }
 
 .app-branding .logo-icon {
-    width: 36px;
-    height: 36px
+    background-size: contain;
 }
 
 .app-branding .logo-text {
@@ -12163,7 +12162,7 @@ button.close:focus {
 }
 
 .app-table-hover>tbody>tr:hover {
-    background-color: #fafbff
+    background-color: rgba(133, 0, 38, 0.2);
 }
 
 .app-card-notification .notification-type .badge {
